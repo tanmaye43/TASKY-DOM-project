@@ -69,8 +69,7 @@ const saveChanges = () => {
   localStorage.setItem("tasky", JSON.stringify({cards:globalStore})); // an object
 
 
-};
-
+}
 const deleteCard = (event) => {
   event = window.event;
   // id
@@ -91,7 +90,7 @@ const deleteCard = (event) => {
 
 };
 
-// Issues
+// Issues.
 
 // Page refresh will cause the data to be deleted -> localstorage -> 5MB [solved]
 
